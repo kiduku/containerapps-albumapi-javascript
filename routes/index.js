@@ -6,7 +6,7 @@ const orderController = require("../controllers/AlbumController");
 router.get("/", (req, res, next) => {
   res.json({
     message: "Call the /albums route to retrieve a list of albums",
-    message: "ワークフローの自動実行を追加！
+    message: "ワークフローの自動実行を追加！",
   });
 });
 
